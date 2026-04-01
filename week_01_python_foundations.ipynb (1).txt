@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q4I519SQ8mRJ",
+        "outputId": "16bddf27-4b47-46d0-feef-297c32627a12"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your Name: Anoosha\n",
+            "Enter your Age: 20\n",
+            "Perfect timing, Anoosha! You are in the 'Prime Window' for Seoul 🚀\n"
+          ]
+        }
+      ],
+      "source": [
+        "\"\"\"\n",
+        "🌸 Project: Seoul Startup 2027 Path\n",
+        "📅 Day 1: The Founder Intake Logic\n",
+        "---------------------------------------------------------\n",
+        "Today, I officially started my 365-day streak for the\n",
+        "K-Startup Grand Challenge 2027.\n",
+        "\n",
+        "What I mastered and applied today:\n",
+        "✅ Function Design: Using 'def main()' to organize my logic.\n",
+        "✅ Data Sanitization: Cleaning user input with .strip() and .capitalize().\n",
+        "✅ Type Casting: Converting 'str' to 'int' to perform logic checks.\n",
+        "✅ Error Resilience: Using 'try/except' so my program doesn't crash.\n",
+        "✅ The Ignition Switch: Using 'if __name__ == \"__main__\"' like a pro.\n",
+        "---------------------------------------------------------\n",
+        "\"\"\"\n",
+        "\n",
+        "def main():\n",
+        "    # Let's get the name and make it look professional (No messy spaces!)\n",
+        "    name = input(\"Enter your Name: \").strip().capitalize()\n",
+        "\n",
+        "    try:\n",
+        "        # We need a number for age, so we convert (str to int)\n",
+        "        age = int(input(\"Enter your Age: \"))\n",
+        "\n",
+        "        # Scenario A: The user made a mistake and typed 0 or negative\n",
+        "        if age <= 0:\n",
+        "            print(f\"Hey {name}, Please enter a valid age! Try again.\")\n",
+        "\n",
+        "        # Scenario B: Future founders (Under 18)\n",
+        "        elif age < 18:\n",
+        "            print(f\"Hello {name}! You've got the spark, but you'll need a Mentor 🗣️\")\n",
+        "\n",
+        "        # Scenario C: The 'Sweet Spot' for the K-Startup Grand Challenge\n",
+        "        elif 18 <= age <= 30:\n",
+        "            print(f\"Perfect timing, {name}! You are in the 'Prime Window' for Seoul 🚀\")\n",
+        "\n",
+        "        # Scenario D: The experienced founders\n",
+        "        else:\n",
+        "            print(f\"Welcome, {name}. Your experience is a massive asset for 2027 🎯\")\n",
+        "\n",
+        "    except ValueError:\n",
+        "        # This catches the 'Oops' if the user types \"Twenty\" instead of 20\n",
+        "        print(\"Wait! Please enter your age using numbers only.\")\n",
+        "\n",
+        "# This is the \"Ignition Switch\" that starts the program\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()"
+      ]
+    }
+  ]
+}

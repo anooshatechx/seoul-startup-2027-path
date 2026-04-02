@@ -1,0 +1,165 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q4I519SQ8mRJ",
+        "outputId": "16bddf27-4b47-46d0-feef-297c32627a12"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your Name: Anoosha\n",
+            "Enter your Age: 20\n",
+            "Perfect timing, Anoosha! You are in the 'Prime Window' for Seoul 🚀\n"
+          ]
+        }
+      ],
+      "source": [
+        "\"\"\"\n",
+        "🌸 Project: Seoul Startup 2027 Path\n",
+        "📅 Day 1: The Founder Intake Logic\n",
+        "---------------------------------------------------------\n",
+        "Today, I officially started my 365-day streak for the\n",
+        "K-Startup Grand Challenge 2027.\n",
+        "\n",
+        "What I mastered and applied today:\n",
+        "✅ Function Design: Using 'def main()' to organize my logic.\n",
+        "✅ Data Sanitization: Cleaning user input with .strip() and .capitalize().\n",
+        "✅ Type Casting: Converting 'str' to 'int' to perform logic checks.\n",
+        "✅ Error Resilience: Using 'try/except' so my program doesn't crash.\n",
+        "✅ The Ignition Switch: Using 'if __name__ == \"__main__\"' like a pro.\n",
+        "---------------------------------------------------------\n",
+        "\"\"\"\n",
+        "\n",
+        "def main():\n",
+        "    # Let's get the name and make it look professional (No messy spaces!)\n",
+        "    name = input(\"Enter your Name: \").strip().capitalize()\n",
+        "\n",
+        "    try:\n",
+        "        # We need a number for age, so we convert (str to int)\n",
+        "        age = int(input(\"Enter your Age: \"))\n",
+        "\n",
+        "        # Scenario A: The user made a mistake and typed 0 or negative\n",
+        "        if age <= 0:\n",
+        "            print(f\"Hey {name}, Please enter a valid age! Try again.\")\n",
+        "\n",
+        "        # Scenario B: Future founders (Under 18)\n",
+        "        elif age < 18:\n",
+        "            print(f\"Hello {name}! You've got the spark, but you'll need a Mentor 🗣️\")\n",
+        "\n",
+        "        # Scenario C: The 'Sweet Spot' for the K-Startup Grand Challenge\n",
+        "        elif 18 <= age <= 30:\n",
+        "            print(f\"Perfect timing, {name}! You are in the 'Prime Window' for Seoul 🚀\")\n",
+        "\n",
+        "        # Scenario D: The experienced founders\n",
+        "        else:\n",
+        "            print(f\"Welcome, {name}. Your experience is a massive asset for 2027 🎯\")\n",
+        "\n",
+        "    except ValueError:\n",
+        "        # This catches the 'Oops' if the user types \"Twenty\" instead of 20\n",
+        "        print(\"Wait! Please enter your age using numbers only.\")\n",
+        "\n",
+        "# This is the \"Ignition Switch\" that starts the program\n",
+        "if __name__ == \"__main__\":\n",
+        "    main()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\"\"\"\n",
+        "🌸 Project: Seoul Startup 2027 Path\n",
+        "📅 Day 2: The Batch Processing Engine\n",
+        "---------------------------------------------------------\n",
+        "Today, I moved from handling one user to building a scalable\n",
+        "system that can process multiple applicants at once.\n",
+        "\n",
+        "What I mastered and applied today:\n",
+        "✅ Data Structures: Using 'Dictionaries' as a mini-database.\n",
+        "✅ Iteration: Using 'for loops' to automate repetitive tasks.\n",
+        "✅ Key-Value Mapping: Storing names as 'Keys' and ages as 'Values'.\n",
+        "✅ Batch Logic: Processing a full list of applicants in one run.\n",
+        "✅ Founder Detection: Adding custom conditional logic for system admin.\n",
+        "---------------------------------------------------------\n",
+        "\"\"\"\n",
+        "def startup_report():\n",
+        "    # Step 1: Create the Dictionary (database)\n",
+        "    applicants = {}\n",
+        "\n",
+        "    # Step 2: Data Collection Phase\n",
+        "    print(\"📋 Data Entry Phase (Please enter 3 applicants)\")\n",
+        "    for i in range(3):\n",
+        "        name = input(f\"Enter name for Applicant {i+1}: \").strip().title()\n",
+        "        age = int(input(f\"Enter age for {name}: \"))\n",
+        "        applicants[name] = age # Saving to our dictionary\n",
+        "\n",
+        "    # Step 3: The Automated Report Phase\n",
+        "    print(\"\\n 📊 STARTUP ELIGIBILITY REPORT \\n\")\n",
+        "\n",
+        "    for name, age in applicants.items():\n",
+        "        if name == \"Anoosha\":\n",
+        "            print(f\"🌟 FOUNDER: {name} | Status: Access Granted\")\n",
+        "        elif age >= 18:\n",
+        "            print(f\"✅ Applicant: {name} | Age: {age} | Status: Eligible\")\n",
+        "        else:\n",
+        "            print(f\"❌ Applicant: {name} | Age: {age} | Status: Underage\")\n",
+        "\n",
+        "    print(\"End of Report.\")\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "    startup_report()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IkVYc78_eGb4",
+        "outputId": "7101bc8f-ea90-49b3-e273-5caeca55ed3f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "📋 Data Entry Phase (Please enter 3 applicants)\n",
+            "Enter name for Applicant 1: Anoosha\n",
+            "Enter age for Anoosha: 20\n",
+            "Enter name for Applicant 2: Zaina\n",
+            "Enter age for Zaina: 14\n",
+            "Enter name for Applicant 3: Aryan\n",
+            "Enter age for Aryan: 18\n",
+            "\n",
+            " 📊 STARTUP ELIGIBILITY REPORT \n",
+            "\n",
+            "🌟 FOUNDER: Anoosha | Status: Access Granted\n",
+            "❌ Applicant: Zaina | Age: 14 | Status: Underage\n",
+            "✅ Applicant: Aryan | Age: 18 | Status: Eligible\n",
+            "End of Report.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}

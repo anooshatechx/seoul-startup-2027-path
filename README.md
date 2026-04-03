@@ -28,7 +28,7 @@ To revolutionize language acquisition through localized AI. My mission is to arr
 * **April 2027:** Official Application for **KSGC 2027**.
 
 ## 📚 Phase 1: Technical Foundations (CS50P & SQL)
-*Location: `/01-foundations`*
+*Location: [01-foundations](01-foundations)*
 Focuses on advanced Python logic (functions, loops, exceptions) and SQL database architecture to track student learning progress and vocabulary retention.
 
 ## 🧠 Phase 2: AI Mastery (Google GenAI & RAG)

@@ -27,7 +27,7 @@ Project Alpha documents my technical evolution from student to AI Founder. My mi
 * **April 2027:** Official Application for **KSGC 2027**.
 
 ## 📚 Phase 1: Logic, Data & Stats (Foundations)
-*Location: [01-foundations](01-foundations)*
+*Location: [01-foundations](01-foundations)* 
 Mastering advanced Python logic and **SQLite** for on-device memory. This phase includes studying the **Statistics of Learning** to verify progress and retention metrics without external server dependencies.
 
 ## 🧠 Phase 2: Edge Engineering & Model Optimization

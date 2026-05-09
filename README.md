@@ -1,4 +1,4 @@
-# 🚀 Project Alpha: Seoul Startup 2027
+# 🚀 Kognit: Seoul Startup 2027
 **A 12-month Technical Learning Journey toward a Sustainable, Private, and Water-Neutral AI Assistant for the K-Startup Grand Challenge.**
 
 ---
@@ -8,7 +8,7 @@
 2. [🛣️ Roadmap & Learning Milestones](#️-roadmap--learning-milestones)
 3. [📚 Phase 1: Logic, Data & Stats (Foundations)](#-phase-1-logic-data--stats-foundations)
 4. [🧠 Phase 2: Edge Engineering & Model Optimization](#-phase-2-edge-engineering--model-optimization)
-5. [🤖 Phase 3: Private Knowledge Synthesis (RAG)](#-phase-3-private-knowledge-synthesis-rag)
+5. [🤖 Phase 3: Cognitive Mapping & RAG (The Bilingual Bridge)(#-phase-3-cognitive-mapping-and-rag) 
 6. [🎨 Phase 4: HCI & Maker-Centric Design](#-phase-4-hci--maker-centric-design)
 7. [🛠️ Tech Stack & Resources](#️-tech-stack--resources)
 8. [📈 Progress Logs](#-progress-logs)
@@ -17,7 +17,7 @@
 ---
 
 ## 📍 Mission Statement
-Project Alpha documents my technical evolution from student to AI Founder. My mission is to arrive at the **2027 K-Startup Grand Challenge** with a "Water-Neutral" AI Tutor—a proprietary, **Offline-First** architecture designed to eliminate the environmental cost of cloud-AI while ensuring 100% data sovereignty for students.
+Kognit documents my technical evolution from student to AI Founder. My mission is to arrive at the **2027 K-Startup Grand Challenge** with a "Water-Neutral" AI Tutor—a proprietary, **Offline-First** architecture designed to eliminate the environmental cost of cloud-AI while ensuring 100% data sovereignty for students.
 
 ## 🛣️ Roadmap & Learning Milestones
 * **Q1 2026:** Master Python Logic, SQL Persistence, and Descriptive Statistics.
@@ -34,8 +34,8 @@ Mastering advanced Python logic and **SQLite** for on-device memory. This phase 
 *Location: `/02-edge-ai`*
 Shifting intelligence from the cloud to the device. Focusing on **Vector Mathematics** and **NLP Science**. Utilizing **4-bit Quantization** and **LiteRT** to run models on mobile NPUs for zero-water footprint and sub-second speed.
 
-## 🤖 Phase 3: Private Knowledge Synthesis (RAG)
-*Location: `/03-private-logic`*
+## 🤖 Phase 3: Cognitive Mapping & RAG (The Bilingual Bridge)
+*Location: `/03-cognitive-mapping-and-rag`*
 Implementing localized vector search using **On-Device Embeddings**. This phase focuses on building a secure, local RAG system that handles complex bilingual tutoring tasks entirely offline.
 
 ## 🎨 Phase 4: HCI & Maker-Centric Design

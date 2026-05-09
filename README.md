@@ -8,7 +8,7 @@
 2. [🛣️ Roadmap & Learning Milestones](#️-roadmap--learning-milestones)
 3. [📚 Phase 1: Logic, Data & Stats (Foundations)](#-phase-1-logic-data--stats-foundations)
 4. [🧠 Phase 2: Edge Engineering & Model Optimization](#-phase-2-edge-engineering--model-optimization)
-5. [🤖 Phase 3: Cognitive Mapping & RAG (The Bilingual Bridge)(#-phase-3-cognitive-mapping-and-rag) 
+5. [🤖 Phase 3: Cognitive Mapping & RAG (The Bilingual Bridge)(#-phase-3-cognitive-mapping-and-rag)]
 6. [🎨 Phase 4: HCI & Maker-Centric Design](#-phase-4-hci--maker-centric-design)
 7. [🛠️ Tech Stack & Resources](#️-tech-stack--resources)
 8. [📈 Progress Logs](#-progress-logs)

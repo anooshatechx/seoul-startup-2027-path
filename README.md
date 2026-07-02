@@ -48,8 +48,8 @@ semantic similarity search.
 - Linear Algebra foundations ✅  
 - Statistics foundations ✅
 - Hugging Face NLP Course Chapter 1,2 ✅
-- Sentence Transformers — In Progress
-- SQLite-vec (vector storage) — Pending
+- Sentence Transformers ✅
+- SQLite-vec (vector storage) — In Progress
 - RAG Pipeline — Pending
 - Local LLM (Ollama) — Pending
 
@@ -79,8 +79,8 @@ with SQLCipher encryption implemented at this stage.
 
 ### June 2026
 * **2026-06-XX:** Layer 2 begun. NLP fundamentals, Linear Algebra, 
-  Statistics completed. Hugging Face Chapter 1 complete.
-  Sentence Transformers hands-on complete.
+  Statistics completed. Hugging Face Chapter 1,2 complete.
+  Sentence Transformers with semantic search hands-on complete.
 
 ### July 2026
 * **2026-07-XX:** Layer 2 continue. SQLite-vec ongoing...

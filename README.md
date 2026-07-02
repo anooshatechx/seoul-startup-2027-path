@@ -49,7 +49,7 @@ semantic similarity search.
 - Statistics foundations ✅
 - Hugging Face NLP Course Chapter 1,2 ✅
 - Sentence Transformers — In Progress
-- SQLite-VSS (vector storage) — Pending
+- SQLite-vec (vector storage) — Pending
 - RAG Pipeline — Pending
 - Local LLM (Ollama) — Pending
 

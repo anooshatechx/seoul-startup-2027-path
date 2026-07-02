@@ -65,7 +65,7 @@ with SQLCipher encryption implemented at this stage.
 
 ## 🛠️ Tech Stack
 * **Layer 1:** Python, SQLite3, OOP
-* **Layer 2:** Sentence Transformers, SQLite-VSS, Ollama
+* **Layer 2:** Sentence Transformers, SQLite-vec, Ollama
 * **Layer 3:** Graphviz/diagram generation (planned)
 * **Layer 4:** Flutter, Dart, SQLCipher
 
@@ -80,7 +80,10 @@ with SQLCipher encryption implemented at this stage.
 ### June 2026
 * **2026-06-XX:** Layer 2 begun. NLP fundamentals, Linear Algebra, 
   Statistics completed. Hugging Face Chapter 1 complete.
-  Sentence Transformers hands-on — in progress.
+  Sentence Transformers hands-on complete.
+
+### July 2026
+* **2026-07-XX:** Layer 2 continue. SQLite-vec ongoing...
 
 ---
 

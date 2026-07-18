@@ -83,7 +83,8 @@ with SQLCipher encryption implemented at this stage.
   Sentence Transformers with semantic search hands-on complete.
 
 ### July 2026
-* **2026-07-XX:** Layer 2 continue. SQLite-vec ongoing...
+* **2026-07-XX:** Layer 2 continue. SQLite-vec completed. 
+  RAG pipeline completed. Ollama completed.
 
 ---
 

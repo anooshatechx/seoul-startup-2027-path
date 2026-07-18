@@ -41,7 +41,7 @@ Layer 1 (The Vault) is complete:
 - Real student data: Almeer (Class 3), Ahil (Class 5), Zaina (Class 10), Arisha (Class 2)
 - Validated analogies: Scarcity, Germination, Biodegradable/Non-biodegradable, Maths Statement Question Concepts
 
-## 🧠 Phase 2: NLP & Embeddings (The Brain) — In Progress
+## 🧠 Phase 2: NLP & Embeddings (The Brain) ✅ Complete
 Converting lesson content and student questions into vectors for 
 semantic similarity search.
 - NLP fundamentals ✅
@@ -49,9 +49,9 @@ semantic similarity search.
 - Statistics foundations ✅
 - Hugging Face NLP Course Chapter 1,2 ✅
 - Sentence Transformers ✅
-- SQLite-vec (vector storage) — In Progress
-- RAG Pipeline — Pending
-- Local LLM (Ollama) — Pending
+- SQLite-vec (vector storage) ✅
+- RAG Pipeline ✅
+- Local LLM (Ollama) ✅
 
 ## 🤖 Phase 3: RAG & Local LLM (The Retrieval Bridge) — Planned
 Connecting vector search to a local language model running entirely 

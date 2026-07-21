@@ -60,9 +60,10 @@ on-device. Student asks a question → system retrieves closest analogy
 from database → LLM generates a natural conversational response in 
 the student's native language.
 
-## 🎨 Phase 4: Flutter Interface & Integration — Planned
-Building the actual Android app that ties all layers together, 
-with SQLCipher encryption implemented at this stage.
+## 🎨 Phase 4: Kivy Interface & Integration — In Progress
+Building the Android app using Python/Kivy that ties all 
+layers together. Kivy chosen for MVP speed given existing 
+Python expertise. Flutter planned post-KSGC for production rebuild.
 
 ## 🛠️ Tech Stack
 * **Layer 1:** Python, SQLite3, OOP

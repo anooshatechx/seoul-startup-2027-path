@@ -66,10 +66,10 @@ layers together. Kivy chosen for MVP speed given existing
 Python expertise. Flutter planned post-KSGC for production rebuild.
 
 ## 🛠️ Tech Stack
-* **Layer 1:** Python, SQLite3, OOP
-* **Layer 2:** Sentence Transformers, SQLite-vec, Ollama
-* **Layer 3:** Graphviz/diagram generation (planned)
-* **Layer 4:** Flutter, Dart, SQLCipher
+- Layer 1: Python, SQLite3, OOP
+- Layer 2: Sentence Transformers, SQLite-vec, Ollama
+- Layer 3: Hand-drawn validated visuals + Graphviz for process diagrams
+- Layer 4: Kivy (MVP), Flutter (post-KSGC production)
 
 ## 📈 Progress Logs
 ### April 2026

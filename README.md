@@ -26,11 +26,12 @@ that eliminates the environmental cost of cloud-AI while ensuring
 validated with real students, coded from scratch.
 
 ## 🛣️ Roadmap & Learning Milestones
-* **Q1-Q2 2026:** Python, SQL, SQLite3, OOP, Linear Algebra, Statistics ✅
-* **Q2-Q3 2026:** NLP, Embeddings, Sentence Transformers, SQLite-VSS, RAG
-* **Q3-Q4 2026:** Local LLM (Ollama), Flutter App, Integration
-* **Q1 2027:** Testing, refinement, pitch preparation
-* **May 2027:** Official Application for KSGC 2027
+- Q1-Q2 2026: Python, SQL, SQLite3, OOP, Linear Algebra, Statistics ✅
+- Q2-Q3 2026: NLP, Embeddings, Sentence Transformers, SQLite-vec, RAG, Ollama ✅
+- Q3 2026: Kivy Interface & Integration (changed from Flutter)
+- Q4 2026: Student testing, pitch preparation
+- Q1 2027: KSGC application refinement
+- May 2027: Official Application for KSGC 2027
 
 ## 📚 Phase 1: Logic, Data & Stats (Foundations) ✅ Complete
 Layer 1 (The Vault) is complete:
